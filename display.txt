@@ -1,0 +1,10 @@
+---------------------------
+ Mirror the current screen
+---------------------------
+$ xrandr
+$ xrandr --output [VGA1] --auto
+
++ Add a second screen
+
+$ xrandr --output [VGA1] [--above] LVDS1
+
