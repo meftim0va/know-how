@@ -1,2 +1,2 @@
-# Create empty branch
+# Creates an empty branch at whatever state the master/former branch is.
 git checkout -b <name> $(git rev-list --max-parents=0 HEAD)
