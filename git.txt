@@ -1,0 +1,2 @@
+# Create empty branch
+git checkout -b <name> $(git rev-list --max-parents=0 HEAD)
